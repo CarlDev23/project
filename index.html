@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basta Kape</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="logo1.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <header data-aos="zoom-out">
+        <a href="#home" class="logo">Basta Kape</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <!---home start-->
+    <section class="home" id="home" data-aos="zoom-out">
+        <div class="home-text">
+            <h1>Best Food For Your Taste</h1>
+            <h2>Food The <br> Most Precious Things </h2>
+            <a href="#menu" class="btn">Today's Menu</a>
+        </div>
+        <div class="home-img">
+            <img src="bastafront.jpg" alt="">
+        </div>
+    </section>
+    <!---about start-->
+    <section class="about" id="about">
+        <div class="about-img" data-aos="fade-left">
+            <img src="aboutimg.jpg" alt="">
+        </div>
+        <div class="about-text" data-aos="fade-right">
+            <span>About Us</span>
+            <h2>We speak the good <br> food language</h2>
+            <p>Basta Kape is an al fresco coffee shop in Balayan. Founded last March 2022, BK as better known by its
+                customers offer drinks coffee, latte, frappe. Later on they widen their menu as their offer their best
+                selling rice meal such as Adobo flakes, spam and bacon.
+                Beef burger and Chicken burger are also served. </p>
+            <a href="https://www.facebook.com/BastaKapeBalayan" class="btn">Learn More</a>
+        </div>
+    </section>
+    <!---menu start-->
+    <section class="menu" id="menu">
+        <div class="heading" data-aos="fade-up">
+            <span>Food menu</span>
+            <h2>Fresh taste and great price</h2>
+        </div>
+        <div class="menu-container">
+            <div class="box" data-aos="fade-left">
+                <div class="box-img">
+                    <img src="burger_img.png" alt="Clickable Image" onclick="insertList()">
+                    <!-- <ul id="myList">
+                        <li>Existing Item 1</li>
+                        <li>Existing Item 2</li>
+                    </ul>
+
+                    <script>
+                        function insertList() {
+                            var list = document.getElementById('myList');
+                            var newItem = document.createElement('li');
+                            var textNode = document.createTextNode('New Item');
+                            newItem.appendChild(textNode);
+                            list.appendChild(newItem);
+                        }
+                    </script>-->
+                </div>
+                <h2>BURGER'S</h2>
+                <h3>chicken,burger and king size</h3>
+                <span>P99</span>
+                <a href="https://www.facebook.com/messages/t/111932701822824"><i class='bx bx-cart-alt'></i></a>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="box-img">
+                    <img src="drinks2.png" alt="Clickable image">
+                    <!--<ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>-->
+                </div>
+                <h2>DRINK'S</h2>
+                <h3>coffee and non-coffee</h3>
+                <span>P69</span>
+                <a href="https://www.facebook.com/messages/t/111932701822824"><i class='bx bx-cart-alt'></i></a>
+            </div>
+
+            <div class="box" data-aos="fade-right">
+                <div class="box-img">
+                    <img src="ricemeal.png" alt="Clickable Image">
+                </div>
+                <h2>RICE MEAL'S</h2>
+                <h3>silog and lunch meal</h3>
+                <span>P89</span>
+                <a href="https://www.facebook.com/messages/t/111932701822824"><i class='bx bx-cart-alt'></i></a>
+            </div>
+        </div>
+    </section>
+    <!---service start-->
+    <section class="services" id="services">
+        <div class="heading" data-aos="fade-up">
+            <span>Services</span>
+            <h2>We provide best quality food</h2>
+        </div>
+        <div class="service-container">
+            <div class="s-box" data-aos="fade-left">
+                <img src="s1.png" alt="">
+                <h3>Order</h3>
+                <p>An order on our website refers to a formal request made by a customer to purchase a specific product
+                    or service listed on our platform. By adding selected items to the virtual shopping cart and
+                    completing the checkout process, customers initiate an order. The order includes product details,
+                    quantities, pricing, and any applicable discounts or promotional offers. including the estimated
+                    delivery date and any relevant tracking information. Our team will process the order swiftly and
+                    ensure timely delivery to the designated shipping address.</p>
+            </div>
+
+            <div class="s-box" data-aos="fade-up">
+                <img src="s2.png" alt="">
+                <h3>Delivered</h3>
+                <p><b>"Delivered"</b> status on our website indicates that the ordered product has successfully reached
+                    the
+                    specified delivery address and is now in the possession of the customer. Once the delivery is marked
+                    as "delivered," customers should inspect the package immediately to ensure the contents are in good
+                    condition and to report any issues promptly.We take utmost care in ensuring that the products are
+                    securely delivered to the designated address within the estimated timeframe. </p>
+            </div>
+
+            <div class="s-box" data-aos="fade-right">
+                <img src="s3.png" alt="">
+                <h3>Shipping</h3>
+                <p>Once an order is confirmed and payment is processed, our dedicated logistics team carefully packs and
+                    labels the products for shipment. We work with trusted shipping partners to ensure the safe and
+                    timely delivery of your orders. Upon shipment, customers receive a shipping confirmationPlease note
+                    that shipping times may vary depending on the destination and any unforeseen circumstances, such as
+                    weather conditions or logistical challenges. </p>
+            </div>
+        </div>
+    </section>
+    <!---contact start-->
+    <section class="cta" id="contact" data-aos="fade-up">
+
+        <h2>We make quality food <br> Everyday</h2>
+        <a href="https://www.facebook.com/messages/t/111932701822824" class="btn1">Let's
+            talk</a>
+    </section>
+    <!---footer start-->
+    <section id="contact">
+        <div class="footer">
+            <div class="main">
+                <div class="col" data-aos="fade-left">
+                    <h4>Menu Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col" data-aos="fade-up">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Delivery Information</a></li>
+
+
+                    </ul>
+                </div>
+
+                <div class="col" data-aos="fade-right">
+                    <h4>Contact Us</h4>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100090092886117&sk=photos"><i
+                                class='bx bxl-facebook-circle'></i></a>
+                        <a href="https://www.facebook.com/messages/t/111932701822824"><i
+                                class='bx bxl-messenger'></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--javascript-->
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            duration: 1000
+        });
+    </script>
+</body>
+
+</html>
